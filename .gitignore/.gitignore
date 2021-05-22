@@ -1,0 +1,9 @@
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git init
+git add .     # Don't forget the . at the end
+git commit -m "basic prediction"
+# Replace <your-id> with your user ID here
+git remote add origin https://github.com/<your-id>/admission.git
+git push -u origin master
